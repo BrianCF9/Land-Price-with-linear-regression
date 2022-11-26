@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+//<![CDATA[
+window.gon={};
+//]]>
+</script>
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="q5lq+N0u+XHkX2BzrVrIWlZ8YnhPl0AR2uObR8XdUX8NGY900MgIzPpSwuzycJr0GR3TkrQLZ/qoTYBcTHa0Jw==" />
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buscador de propiedades" />
+    <meta name="keywords" content="tasaciones, tasación, propiedades, buscador ,metabuscador" />
+    <meta name="author" content="Tasando" />
+    <meta name="email" content="contacto@lares.cl" />
+    <meta name="website" content="https://www.tasando.cl" />
+    
+    <link rel="stylesheet" media="all" href="/assets/application-e1294b229ce74fb9fb5c701663fc18932d543e2a489f97c5e9d379f0320b9cbe.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-fb65e8ba55b3761e5ad300eadd4edf73eb44f53e5b9702cf84af2a4d1db42f73.js" data-turbolinks-track="reload"></script>
+
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD01QgyNfd45qCGyEjvS5lsCNHuUBXSBp0&libraries=places,drawing"></script>
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/landing/images/favicon-tasando.png" type="image/x-icon">
+    <link rel="icon" href="/landing/images/favicon-tasando.png" type="image/x-icon">
+   
+    <!-- Icons -->
+    <link href="/landing/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.7/css/unicons.css">
+
+    <!-- Magnific -->
+    <link href="/landing/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+
+    <!-- Slider -->               
+    <link rel="stylesheet" href="/landing/css/owl.carousel.min.css"/> 
+    <link rel="stylesheet" href="/landing/css/owl.theme.default.min.css"/> 
+
+    <!-- Main Css -->
+    <link href="/landing/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href="/landing/css/colors/default.css" rel="stylesheet" id="color-opt">
+    <link href="/landing/css/style_ca.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178970340-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-178970340-1');
+    </script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178970340-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-178970340-1');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N5NWSBR');</script>
+    <!-- End Google Tag Manager -->
+
+    <title>Tasando - buscador de propiedades con tasaciones online</title>
+  </head>
+
+  <body>
+    
+
+<script type="text/javascript"> 
+    setTimeout(function () { 
+       	// Closing the alert 
+        $('#alert').alert('close'); 
+    }, 3500); 
+</script>
+    
+<!-- Navbar STart -->
+<header id="topnav" class="defaultscroll sticky">
+    <div class="container-fluid">
+        <!-- Logo container-->
+        <div>
+                <a class="logo" href="/">
+                  <img class="logo-by-lares" src="/assets/tasando-by-lares-29a91f315d7686431c93874c70ae5382669b66390ab8df0a07b63fc274e32048.png" />
+</a>        </div>    
+
+        <div class="menu-extras">
+            <div class="menu-item">
+                <!-- Mobile menu toggle-->
+                <a class="navbar-toggle">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+                <!-- End mobile menu toggle-->
+            </div>
+        </div>
+
+        <div id="navigation" class="menu-account-list">
+                <div class="menu-tasar-box float-right">
+                    <!-- <a href="/users/sign_in" class="btn btn-outline-primary" style="border-color: transparent !important;">Ingresar</a>
+                    <a href="/dashboard/users/sign_up" class="btn btn-outline-primary">Registrarme</a>
+                     -->
+                    <a class="btn btn-outline-primary" style="border-color: transparent !important;" href="/users/sign_in">Ingresar</a>
+                    <a class="btn btn-outline-primary" href="/dashboard/users/sign_up">Registrarme</a>                   
+                </div>
+        </div>
+    </div>
+</header>
+
+<section id="valuations">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div class="separador-50"></div>
+        <div class="separador-50"></div>
+        <h3>Ingresa la información de tu propiedad</h3>
+        <div class="separador-50"></div>
+      </div>
+    </div>
+        <div id="form-valuation-container">
+            <form class="new_user_valuation" id="valuation-form" action="/public/valuations" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9GgugQtSsHOWoDQjHunuZCS0M0VLzUcEJ5LZVAiPHZvqrDWQgsPHLYDikbQRp6jC3qh7HHjikLurlwpeTXKWNQ==" />
+  <div class="row justify-content-center">
+    <div class="col-md-2" id="input-property-type">
+      <label for="user_valuation_operation">Estimación de precio</label>
+      <select name="user_valuation[operation]" id="user_valuation_operation" class="form-control input-shadow"><option value="Venta">Venta</option>
+<option selected="selected" value="Arriendo">Arriendo</option></select>
+    </div>
+    <div class="col-md-2" id="input-property-type">
+      <label for="user_valuation_property_type">Tipo</label>
+      <select name="user_valuation[property_type]" id="user_valuation_property_type" class="form-control input-shadow"><option selected="selected" value="Departamento">Departamento</option>
+<option value="Casa">Casa</option></select>
+    </div>
+    <div class="col-md-6" id="input-address-street">
+      <label for="user_valuation_address">Direccion</label>
+      <input type="text" name="user_address" id="user_address" class="form-control input-shadow" required="required" />
+    </div>
+    <input type="hidden" name="user_valuation[address]" id="user_valuation_address" />
+    <input type="hidden" name="user_valuation[latitude]" id="user_valuation_latitude" />
+    <input type="hidden" name="user_valuation[longitude]" id="user_valuation_longitude" />
+    <input type="hidden" name="user_valuation[address_district]" id="user_valuation_address_district" />
+  </div>
+
+  <div class="separador-30"></div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-2" id="input-mts2">
+      <label for="user_valuation_mts2">m² totales</label>
+      <input autofocus="autofocus" class="form-control input-shadow" type="number" name="user_valuation[mts2]" id="user_valuation_mts2" />
+    </div>
+    <div class="col-md-2" id="input-mts2">
+      <label for="user_valuation_mts2">m² útiles</label>
+      <input autofocus="autofocus" class="form-control input-shadow" required="required" type="number" name="user_valuation[mts2_util]" id="user_valuation_mts2_util" />
+    </div>
+    <div class="col-md-1" id="input-address-floor">
+      <label for="user_valuation_address_floor">Piso</label>
+      <input class="form-control input-shadow" type="text" name="user_valuation[address_floor]" id="user_valuation_address_floor" />
+    </div>
+    <div class="col-md-2" id="input-rol">
+      <label for="user_valuation_rol">Rol (opcional)</label>
+      <input class="form-control input-shadow" type="text" name="user_valuation[rol]" id="user_valuation_rol" />
+    </div>
+  </div>
+
+
+<!--   <div class="row justify-content-center">
+    <div class="col-md-4" id="input-address-street">
+    </div>
+    <div class="col-md-1" id="input-address-number">
+    </div>
+    <div class="col-md-1" id="input-address-floor">
+    </div>
+    <div class="col-md-3" id="input-address-district">
+    </div>
+    <div class="col-md-3" id="input-address-city">
+    </div>
+  </div> -->
+
+  <div class="separador-30"></div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-2" id="input-bedrooms">
+      <label for="user_valuation_bedrooms">Dormitorios</label>
+      <select name="user_valuation[bedrooms]" id="user_valuation_bedrooms" class="form-control input-shadow"><option value="" label=" "></option><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option></select>
+    </div>
+    <div class="col-md-2" id="input-bathrooms">
+      <label for="user_valuation_bathrooms">Baños</label>
+      <select name="user_valuation[bathrooms]" id="user_valuation_bathrooms" class="form-control input-shadow"><option value="" label=" "></option><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option></select>
+    </div>          
+    <div class="col-md-2" id="input-parking">
+      <label for="user_valuation_parking">Estacionamientos</label>
+      <select name="user_valuation[parking]" id="user_valuation_parking" class="form-control input-shadow"><option value="" label=" "></option><option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+    </div>
+    <div class="col-md-2" id="input-warehouse">
+      <label for="user_valuation_warehouse">Bodegas</label>
+      <select name="user_valuation[warehouse]" id="user_valuation_warehouse" class="form-control input-shadow"><option value="" label=" "></option><option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+    </div>
+  </div>
+
+  <div class="separador-50"></div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6 text-center">
+        <input type="submit" name="commit" value="Continuar" class="btn btn-primary" data-disable-with="Continuar" />
+    </div>
+  </div> 
+</form>
+        </div>
+        <div class="separador-50"></div>
+        <div class="separador-50"></div>
+        <div class="separador-50"></div>
+        <div class="separador-50"></div>
+        
+      </div>
+    </div>
+    <div id="html-forms" data-departamento='<form class="new_user_valuation" id="valuation-form" action="/public/valuations" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QCHjDP/DO7d/7zCTWx+3lxCqLEwKL50/DLYPBTJ7wk1e5fgddlJM6WmtlQRUUfEx6rZkFTkASoCAs9wPd4ZJ4w==" />
+  <div class="row justify-content-center">
+    <div class="col-md-2" id="input-property-type">
+      <label for="user_valuation_operation">Estimación de precio</label>
+      <select name="user_valuation[operation]" id="user_valuation_operation" class="form-control input-shadow"><option value="Venta">Venta</option>
+<option selected="selected" value="Arriendo">Arriendo</option></select>
+    </div>
+    <div class="col-md-2" id="input-property-type">
+      <label for="user_valuation_property_type">Tipo</label>
+      <select name="user_valuation[property_type]" id="user_valuation_property_type" class="form-control input-shadow"><option selected="selected" value="Departamento">Departamento</option>
+<option value="Casa">Casa</option></select>
+    </div>
+    <div class="col-md-6" id="input-address-street">
+      <label for="user_valuation_address">Direccion</label>
+      <input type="text" name="user_address" id="user_address" class="form-control input-shadow" required="required" />
+    </div>
+    <input type="hidden" name="user_valuation[address]" id="user_valuation_address" />
+    <input type="hidden" name="user_valuation[latitude]" id="user_valuation_latitude" />
+    <input type="hidden" name="user_valuation[longitude]" id="user_valuation_longitude" />
+    <input type="hidden" name="user_valuation[address_district]" id="user_valuation_address_district" />
+  </div>
+
+  <div class="separador-30"></div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-2" id="input-mts2">
+      <label for="user_valuation_mts2">m² totales</label>
+      <input autofocus="autofocus" class="form-control input-shadow" type="number" name="user_valuation[mts2]" id="user_valuation_mts2" />
+    </div>
+    <div class="col-md-2" id="input-mts2">
+      <label for="user_valuation_mts2">m² útiles</label>
+      <input autofocus="autofocus" class="form-control input-shadow" required="required" type="number" name="user_valuation[mts2_util]" id="user_valuation_mts2_util" />
+    </div>
+    <div class="col-md-1" id="input-address-floor">
+      <label for="user_valuation_address_floor">Piso</label>
+      <input class="form-control input-shadow" type="text" name="user_valuation[address_floor]" id="user_valuation_address_floor" />
+    </div>
+    <div class="col-md-2" id="input-rol">
+      <label for="user_valuation_rol">Rol (opcional)</label>
+      <input class="form-control input-shadow" type="text" name="user_valuation[rol]" id="user_valuation_rol" />
+    </div>
+  </div>
+
+
+<!--   <div class="row justify-content-center">
+    <div class="col-md-4" id="input-address-street">
+    </div>
+    <div class="col-md-1" id="input-address-number">
+    </div>
+    <div class="col-md-1" id="input-address-floor">
+    </div>
+    <div class="col-md-3" id="input-address-district">
+    </div>
+    <div class="col-md-3" id="input-address-city">
+    </div>
+  </div> -->
+
+  <div class="separador-30"></div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-2" id="input-bedrooms">
+      <label for="user_valuation_bedrooms">Dormitorios</label>
+      <select name="user_valuation[bedrooms]" id="user_valuation_bedrooms" class="form-control input-shadow"><option value="" label=" "></option><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option></select>
+    </div>
+    <div class="col-md-2" id="input-bathrooms">
+      <label for="user_valuation_bathrooms">Baños</label>
+      <select name="user_valuation[bathrooms]" id="user_valuation_bathrooms" class="form-control input-shadow"><option value="" label=" "></option><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option></select>
+    </div>          
+    <div class="col-md-2" id="input-parking">
+      <label for="user_valuation_parking">Estacionamientos</label>
+      <select name="user_valuation[parking]" id="user_valuation_parking" class="form-control input-shadow"><option value="" label=" "></option><option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+    </div>
+    <div class="col-md-2" id="input-warehouse">
+      <label for="user_valuation_warehouse">Bodegas</label>
+      <select name="user_valuation[warehouse]" id="user_valuation_warehouse" class="form-control input-shadow"><option value="" label=" "></option><option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+    </div>
+  </div>
+
+  <div class="separador-50"></div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6 text-center">
+        <input type="submit" name="commit" value="Continuar" class="btn btn-primary" data-disable-with="Continuar" />
+    </div>
+  </div> 
+</form>' data-casa='<form class="new_user_valuation" id="valuation-form" action="/public/valuations" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TM5uLGNaq3VjPbmi3afyoREfXLi3BdLQUw+r0YAa8ZBSCnU96svcK3V/HDXS6bQH6wMU4YQqBW/fCnjbxed6Pg==" />
+  <div class="row justify-content-center">
+    <div class="col-md-2" id="input-property-type">
+      <label for="user_valuation_operation">Estimación de precio</label>
+      <select name="user_valuation[operation]" id="user_valuation_operation" class="form-control input-shadow"><option value="Venta">Venta</option>
+<option selected="selected" value="Arriendo">Arriendo</option></select>
+    </div>
+    <div class="col-md-2" id="input-property-type">
+      <label for="user_valuation_property_type">Tipo</label>
+      <select name="user_valuation[property_type]" id="user_valuation_property_type" class="form-control input-shadow"><option value="Departamento">Departamento</option>
+<option selected="selected" value="Casa">Casa</option></select>
+    </div>
+    <div class="col-md-6" id="input-address-street">
+      <label for="user_valuation_address">Direccion</label>
+      <input type="text" name="user_address" id="user_address" class="form-control input-shadow" required="required" />
+    </div>
+    <input type="hidden" name="user_valuation[address]" id="user_valuation_address" />
+    <input type="hidden" name="user_valuation[latitude]" id="user_valuation_latitude" />
+    <input type="hidden" name="user_valuation[longitude]" id="user_valuation_longitude" />
+    <input type="hidden" name="user_valuation[address_district]" id="user_valuation_address_district" />
+  </div>
+
+  <div class="separador-30"></div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-2" id="input-mts2">
+      <label for="user_valuation_mts2">m² terreno</label>
+      <input class="form-control input-shadow" required="required" type="number" name="user_valuation[mts2_terreno]" id="user_valuation_mts2_terreno" />
+    </div>
+    <div class="col-md-2" id="input-mts2">
+      <label for="user_valuation_mts2">m² construidos</label>
+      <input class="form-control input-shadow" required="required" type="number" name="user_valuation[mts2]" id="user_valuation_mts2" />
+    </div>
+  </div>
+
+  <div class="separador-30"></div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-2" id="input-bedrooms">
+      <label for="user_valuation_bedrooms">Dormitorios</label>
+      <select name="user_valuation[bedrooms]" id="user_valuation_bedrooms" class="form-control input-shadow"><option value="" label=" "></option><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option></select>
+    </div>
+    <div class="col-md-2" id="input-bathrooms">
+      <label for="user_valuation_bathrooms">Baños</label>
+      <select name="user_valuation[bathrooms]" id="user_valuation_bathrooms" class="form-control input-shadow"><option value="" label=" "></option><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+    </div>  
+    <div class="col-md-2" id="input-rol">
+      <label for="user_valuation_rol">Rol (opcional)</label>
+      <input class="form-control input-shadow" type="text" name="user_valuation[rol]" id="user_valuation_rol" />
+    </div>        
+  </div>
+
+  <div class="separador-50"></div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6 text-center">
+      <input type="submit" name="commit" value="Continuar" class="btn btn-primary" data-disable-with="Continuar" />
+    </div>
+  </div> 
+</form>'></div>
+  </div>
+  <div class="separador-50"></div>
+</section>
+
+
+    
+
+    <script src="/landing/js/jquery.easing.min.js"></script>
+    <script src="/landing/js/scrollspy.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="/landing/js/jquery.magnific-popup.min.js"></script>
+    <script src="/landing/js/magnific.init.js"></script>
+    <!-- SLIDER -->
+<!--     <script src="/landing/js/owl.carousel.min.js "></script>
+    <script src="/landing/js/owl.init.js "></script> -->
+    <!-- Counter -->
+    <script src="/landing/js/counter.init.js "></script>
+    <!-- Icons -->
+    <script src="/landing/js/feather.min.js"></script>
+    <script src="https://unicons.iconscout.com/release/v2.1.9/script/monochrome/bundle.js"></script>
+    <!-- Main Js -->
+    <script src="/landing/js/app.js"></script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5NWSBR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+  </body>
+</html>
