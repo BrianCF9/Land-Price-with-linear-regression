@@ -22,6 +22,10 @@ app = Flask(__name__)
 def hello_world():
      return render_template('Casa.html')
 
+@app.route("/Mapa")
+def mapa():
+     return render_template('Mapa.html')
+
 @app.route("/TasadorOnline")
 def Tasador():
     return render_template('TasadorOnline.html')
