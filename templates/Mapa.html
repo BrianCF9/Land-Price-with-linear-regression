@@ -108,7 +108,13 @@
         }
       
         /* global campus, bicycleRental, freeBus, coorsField */
-        const bicycleRentalLayer = L.geoJSON([bicycleRental, comuna1,comuna2,comuna3], {
+        var auxiliar2=[]
+        for (let index = 0; index < auxiliar.length; index++) {
+          auxiliar2.push(auxiliar[index])
+        }
+        auxiliar2.push(bicycleRental)
+
+        const bicycleRentalLayer = L.geoJSON(auxiliar2, {
       
           style(feature) {
             return feature.properties && feature.properties.style;
