@@ -114266,10 +114266,10 @@ for (let i = 1; i < arreglo.length; i++) {
     "id": i,
     "style": {
       radius: 4,
-      // fillColor: (arreglo[i][7] <= 250000) ? '#4DF60D' :
-      //   (arreglo[i][7] <= 500000 && arreglo[i][7] > 250000) ? '#F2F308' :
-      //     (arreglo[i][7] <= 750000 && arreglo[i][7] > 500000) ? '#F39F08' : '#F6250D',
-      fillColor: colorss[arreglo[i][14]],
+      fillColor: (arreglo[i][7] <= 250000) ? '#4DF60D' :
+        (arreglo[i][7] <= 500000 && arreglo[i][7] > 250000) ? '#F2F308' :
+          (arreglo[i][7] <= 750000 && arreglo[i][7] > 500000) ? '#F39F08' : '#F6250D',
+      // fillColor: colorss[arreglo[i][14]],
       color: '#000',
       weight: 1,
       opacity: 1,
